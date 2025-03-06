@@ -22,10 +22,10 @@
         <div class="main-box">
 
             <img src="logo.png" alt="logo do Super Mario" class="Logo Mario">
-            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo1</p>
+            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
 
-            <p>Voceb ja se encontrou em uma situação de emergencia com encamento?Vazamentos inesperados, canos entupidos
-                ou torneiras que não param de pingar? Não se preocupe,porque estamos aqui para salvar o dia!Apresentamos
+            <p>Voce ja se encontrou em uma situação de emergencia com encamento? Vazamentos inesperados, canos entupidos
+                ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos
                 a voces os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
         </div>
         <button onclick="ClickShow()">Entre em Contato</button>
@@ -34,10 +34,19 @@
 
     <img src="/mario projeto/mario.png" alt="Mario e Luigi juntos" class="img-mario-luigi">
 
-    <form class="send-form" action=""></form>
-    <h4>FALE CONOSCO</h4>
-    <input type="text">
+    <form class="send-form" action="">
+        <h4>FALE CONOSCO</h4>
+        <input id="in-name" placehold="Digite seu nome" name="nome">
+        <input ind="in-number" type="tel" placeholder="Digite seu numero" name="tel">
+        <input id="in-text" placeholder="Fale o que achou do meu projeto aqui!"></textarea name="info">
+
+        <button onclick="goneForm()">Enviar</button>
+    </form>
+
+    <div class="mask-form"></div>
 
 </body>
+
+<script src="/mario projeto/script.js"></script>
 
 </html>
